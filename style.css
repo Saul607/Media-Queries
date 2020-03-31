@@ -1,5 +1,5 @@
  h1{
-  font-size: 1000%;
+  font-size: 100%;
   color: #FBD62B;
   background-color: #40B4FB;
   text-align: center;
@@ -16,6 +16,13 @@ body{
   grid-template-columns: 2fr;
   margin-left: 30%;
   margin-bottom: 10%;
+  /* Example used from stack overflow for refrence
+  https://stackoverflow.com/questions/6169666/how-to-resize-an-image-to-fit-in-the-browser-window
+  */
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
+  /* Example used from stack overflow for refrence*/
 }
 
 .bText{
@@ -50,6 +57,9 @@ iframe.youtube{
   margin-left: 18%;
   margin-top: 5%;
   margin-bottom: 5%;
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
 }
 
 img.marg{
@@ -58,12 +68,79 @@ img.marg{
 }
 
 
-/* For small screens and phones
-@media only screen and (min-width : 480px){
 
-*/
-/* For Laptops and desktop  */
+/* above For Laptops and desktop  */
+@media only screen and (max-width : 1000px){
+  h1{
+   font-size: 125%;
+   color: #FC766AFF;
+   background-color: #5B84B1FF;
+   text-align: center;
+   max-width: 100%;
+   max-height: 100vh;
+   margin: auto;
+ }
+@media only screen and (max-width : 950px){
+  h1{
+   font-size: 150%;
+   color: #CDB599FF;
+   background-color: #42EADDFF;
+   text-align: center;
+   max-width: 100%;
+   max-height: 100vh;
+   margin: auto;
+ }
+@media only screen and (max-width : 900px){
+  h1{
+   font-size: 175%;
+   color: #FBD62B;
+   background-color: #40B4FB;
+   text-align: center;
+   max-width: 100%;
+   max-height: 100vh;
+   margin: auto;
+ }
+@media only screen and (max-width : 850px){
+  h1{
+   font-size: 250%;
+   color: #F95700FF;
+   background-color: #00A4CCFF;
+   text-align: center;
+   max-width: 100%;
+   max-height: 100vh;
+   margin: auto;
+ }
+@media only screen and (max-width : 750px){
+  h1{
+   font-size: 500%;
+   color: #ADEFD1FF;
+   background-color: #00203FFF;
+   text-align: center;
+   max-width: 100%;
+   max-height: 100vh;
+   margin: auto;
+}
+@media only screen and (max-width : 650px){
+  h1{
+   font-size: 1000%;
+   color: #FCF6F5FF;
+   background-color: #89ABE3FF;
+   text-align: center;
+   max-width: 100%;
+   max-height: 100vh;
+   margin: auto;
+}
+/* For small screens and phones*/
 @media only screen and (max-width : 550px){
+  h1{
+   font-size: 2000%;
+   color: #00539CFF;
+   background-color: #EEA47FFF;
+   text-align: center;
+   max-width: 100%;
+   max-height: 100vh;
+   margin: auto;
+ }
   body{
     color: black;
     font-size: 20px;
@@ -78,7 +155,14 @@ img.marg{
     margin-left: 30%;
     margin-bottom: 10%;
     width: 100%
-    stack
+    /* Example used from stack overflow for refrence
+    https://stackoverflow.com/questions/6169666/how-to-resize-an-image-to-fit-in-the-browser-window
+    */
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+    /* Example used from stack overflow for refrence*/
+
   }
 
   .bText{
@@ -113,6 +197,9 @@ img.marg{
     margin-left: 18%;
     margin-top: 5%;
     margin-bottom: 5%;
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
   }
 
   img.marg{
